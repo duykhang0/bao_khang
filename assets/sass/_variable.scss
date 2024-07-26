@@ -2,3 +2,36 @@ $color-primary: #F8B653;
 $color-black: #000;
 $color-white: #fff;
 $color-sub:#d46762;
+$color_gray: gray;
+
+// Font-size
+$fs_logo: 24px;
+$fs_content: 16px;
+$fs_title: 60px;
+$fs_title_2: 34px;
+$fs_title_3: 25px;
+$fs_p: 12px;
+
+// font-weight
+$fw_300: 300;
+$fw_400: 400;
+$fw_500: 500;
+$fw_bold: bold;
+
+// mixin
+@mixin styleText($color, $fs, $fw, $deco: none) {
+  color: $color;
+  font-size: $fs;
+  font-weight: $fw;
+  text-decoration: $deco;
+}
+
+@mixin styleButton($bg, $p, $border, $color, $fs, $shadow: none) {
+  background-color: $bg;
+  padding: $p;
+  border: $border;
+  color: $color;
+  font-size: $fs;
+  box-shadow: $shadow;
+}
+
