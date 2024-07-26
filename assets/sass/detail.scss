@@ -1,0 +1,65 @@
+.detail{
+    .container{
+        
+        .detail_product{
+            display: flex;
+            justify-content: space-around;
+            img{
+                height:  40rem ;
+            }
+            .detail_content{
+                width: 50%;
+                .product_name{
+    
+                }
+                .product_decs{
+                    font-size: 16px;
+                }
+                h3{
+                    color: green;
+                    font-weight: 500;
+                }
+                .size{
+                    display: flex;
+                    gap: 20px;
+                    button{
+                        font-size: 1.8rem;
+                        font-weight: 600;
+                        padding: 1.4rem;
+                        background-color: #cccccc;
+                    }
+                }
+                .price{
+                    font-size: 2.5rem;
+                    font-weight: 600;
+                    color: red;
+                    margin: 2rem 0;
+                }
+                .quantity{
+                    display: flex;
+                    button{
+                        font-size: 1.8rem;
+                        font-weight: 600;
+                        padding: 0.5rem 1.4rem;
+                        background-color: #cccccc;
+                        
+                    }
+                    input{
+                        width: 4rem;
+                        text-align: center;
+                        font-size: 1.8rem;
+                    }
+                }
+                .add_to_card{
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    padding: 0.5rem 1.4rem;
+                    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+                    margin: 20px 0;
+                    color: #fff;
+                }
+            }
+        }
+        
+    }
+}

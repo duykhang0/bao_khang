@@ -65,7 +65,7 @@ window.getAllShoes = async () => {
         <p>${shoeObj.shortDescription}</p>
         <div class="group__action">
           <div class="action__buyNow">
-            <a href="./assets/pages/detail.html?${shoeObj.id}">Buy Now</a>
+            <a href="./assets/pages/detail.html?id=${shoeObj.id}">Buy Now</a>
           </div>
           <div class="action__price">
             <p>${shoeObj.price}$</p>
@@ -83,7 +83,7 @@ window.getAllShoes = async () => {
               <h1 class="mt-5">${shoeObj.name}</h1>
               <p class="mb-5">${shoeObj.description}</p>
               <button class="btn btn-warning">
-                <a href="./assets/pages/detail.html?${shoeObj.id}">Buy Now</a>
+                <a href="./assets/pages/detail.html?id=${shoeObj.id}">Buy Now</a>
               </button>
             </div>
           </div>
