@@ -53,7 +53,7 @@ const getRelateProduct = async () => {
         
         datas.map((data) => {
             console.log(data)
-              htmlString +=  `
+              htmlString += `
                 <div class="product__item">
                     <img src="${data.image}" alt="" />
                     <h3>${data.name}</h3>
